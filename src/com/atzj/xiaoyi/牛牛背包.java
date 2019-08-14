@@ -25,7 +25,7 @@ public class 牛牛背包 {
                 System.out.println((int)Math.pow(2, n));
             } else {
                 dfs(0, 0, n, nums, total);
-//            均不添加也是一种情况
+                // 均不添加也是一种情况
                 System.out.println(count + 1);
             }
         }
