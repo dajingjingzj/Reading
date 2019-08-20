@@ -1,11 +1,11 @@
-package com.atzj.thread;
+package com.atzj.thread.executor;
 
 import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 类描述：
+ * 类描述： 相当于大小为 1 的 FixedThreadPool
  * 创建只能运行一条线程的线程池。它能保证线程的先后顺序执行，并且能保证一条线程执行完成后才开启另一条新的线程
  * 等价于 ExecutorService exec = Executors.newFixedThreadPool(1);
  *

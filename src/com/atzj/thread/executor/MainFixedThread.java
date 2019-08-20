@@ -1,11 +1,11 @@
-package com.atzj.thread;
+package com.atzj.thread.executor;
 
 import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 类描述：
+ * 类描述： 所有任务只能使用固定大小的线程；
  * 使用一个优先固定数目的线程来处理若干数目的任务 规定数目的线程处理所有任务，一旦有线程处理完了任务就会被用来处理新的任务(如果有的话)
  * CachedThreadPool模式下处理一定数量的任务的线程数目是不确定的。而FixedThreadPool模式下最多 的线程数目是一定的
  * 上面创建了一个固定大小的线程池，大小为5.也就说同一时刻最多只有5个线程能运行。

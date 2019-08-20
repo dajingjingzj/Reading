@@ -1,11 +1,11 @@
-package com.atzj.thread;
+package com.atzj.thread.executor;
 
 import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 类描述：
+ * 类描述：一个任务创建一个线程；
  *  随着程序执行的过程，有的线程执行完了任务，可以被重新循环使用时，才不再创建新的线程来执行任务
  *  让所有的入队任务都执行完毕（shutdown()）
  *  1、主线程的执行与线程池里的线程分开，有可能主线程结束了，但是线程池还在运行
