@@ -6,7 +6,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 类描述：
+ * 类描述： 互斥同步最主要的问题就是线程阻塞和唤醒所带来的性能问题 悲观的并发策略
  * synchronized 是 JVM 实现的，更有优化空间例如自旋锁，而 ReentrantLock 是 JDK API实现的 ,内存消耗大。
  * ReentrantLock 可中断，而 synchronized 不行。
  * synchronized 中的锁是非公平的，ReentrantLock 默认情况下也是非公平的，但是也可以是公平的。
