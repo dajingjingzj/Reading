@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9332014d-6752-4ea2-8e60-73b0f6e891ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/AwaitSignalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/JoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/MyCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/WaitNotifyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/executor/ExecutorServiceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/executor/ShutDownDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/jus/CountdownLatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/jus/CyclicBarrierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/synchronize/ReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/synchronize/SynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/ThreadUnSafeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/jus/other/ForkJoinExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/jus/other/FutureTaskExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atzj/thread/jus/other/ProducerConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/threaddemo/com/atzj/thread/MainCacheThead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/threaddemo/com/atzj/thread/MainFixedThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/threaddemo/com/atzj/thread/MainScheduleThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/threaddemo/com/atzj/thread/MainSingleThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/threaddemo/com/atzj/thread/Threademo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atzj/thread/MainCacheThead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atzj/thread/executor/MainCacheThead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atzj/thread/MainFixedThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atzj/thread/executor/MainFixedThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atzj/thread/MainScheduleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atzj/thread/executor/MainScheduleThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atzj/thread/MainSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atzj/thread/executor/MainSingleThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atzj/thread/Threademo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atzj/thread/executor/Threademo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/threaddemo/com/atzj/thread/jus/CyclicBarrierExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threaddemo/com/atzj/thread/jus/CyclicBarrierExample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +21,115 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/CyclicBarrierExample.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/executor/MainCacheThead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="384">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/other/FutureTaskExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#451#460#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/other/ProducerConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/other/ForkJoinExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/ThreadUnSafeExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/paixu/Xuanze.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/paixu/Kuaisu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/synchronize/SynchronizedDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/SemaphoreExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/CountdownLatchExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,12 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/atzj/xiaoyi/LCS.java" />
-        <option value="$PROJECT_DIR$/src/com/atzj/xiaoyi/LIS.java" />
-        <option value="$PROJECT_DIR$/src/com/atzj/xiaoyi/BFSandDFS.java" />
-        <option value="$PROJECT_DIR$/src/com/atzj/xiaoyi/BFSANDDFS/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/atzj/xiaoyi/BFSANDDFS/DFS.java" />
-        <option value="$PROJECT_DIR$/src/com/atzj/xiaoyi/BFSANDDFS/Test.java" />
         <option value="$PROJECT_DIR$/src/com/atzj/xiaoyi/BFSANDDFS/BFS.java" />
         <option value="$PROJECT_DIR$/src/com/atzj/xiaoyi/Package/W.java" />
         <option value="$PROJECT_DIR$/src/com/atzj/xiaoyi/Package/WandV.java" />
@@ -129,6 +210,12 @@
         <option value="$PROJECT_DIR$/src/com/atzj/thread/AwaitSignalExample.java" />
         <option value="$PROJECT_DIR$/src/com/atzj/thread/jus/CountdownLatchExample.java" />
         <option value="$PROJECT_DIR$/src/com/atzj/thread/jus/CyclicBarrierExample.java" />
+        <option value="$PROJECT_DIR$/src/com/atzj/thread/jus/SemaphoreExample.java" />
+        <option value="$PROJECT_DIR$/src/com/atzj/thread/jus/other/FutureTaskExample.java" />
+        <option value="$PROJECT_DIR$/src/com/atzj/thread/jus/other/ProducerConsumer.java" />
+        <option value="$PROJECT_DIR$/src/com/atzj/thread/jus/other/ForkJoinExample.java" />
+        <option value="$PROJECT_DIR$/src/com/atzj/thread/NotSafeExample.java" />
+        <option value="$PROJECT_DIR$/src/com/atzj/thread/ThreadUnSafeExample.java" />
       </list>
     </option>
   </component>
@@ -157,7 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +276,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="atzj" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atzj" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="jus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atzj" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="synchronize" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -200,7 +303,7 @@
         </subPane>
       </pane>
       <pane id="CatdeaLogs" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,20 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierExample">
-    <configuration name="CountdownLatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atzj.thread.jus.CountdownLatchExample" />
-      <module name="threaddemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atzj.thread.jus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadUnSafeExample">
     <configuration name="CyclicBarrierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atzj.thread.jus.CyclicBarrierExample" />
       <module name="threaddemo" />
@@ -255,51 +345,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atzj.thread.JoinDemo" />
+    <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atzj.thread.jus.other.ForkJoinExample" />
+      <module name="threaddemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atzj.thread.jus.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureTaskExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atzj.thread.jus.other.FutureTaskExample" />
+      <module name="threaddemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atzj.thread.jus.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atzj.thread.jus.other.ProducerConsumer" />
+      <module name="threaddemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atzj.thread.jus.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadUnSafeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atzj.thread.ThreadUnSafeExample" />
       <module name="threaddemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atzj.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atzj.thread.synchronize.ReentrantLockDemo" />
-      <module name="threaddemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atzj.thread.synchronize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atzj.thread.synchronize.SynchronizedDemo" />
-      <module name="threaddemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atzj.thread.synchronize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="滑动窗口的最大值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atzj.leecode.滑动窗口的最大值" />
-      <module name="threaddemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atzj.leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,11 +412,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadUnSafeExample" />
+        <item itemvalue="Application.ForkJoinExample" />
+        <item itemvalue="Application.ProducerConsumer" />
+        <item itemvalue="Application.FutureTaskExample" />
         <item itemvalue="Application.CyclicBarrierExample" />
-        <item itemvalue="Application.CountdownLatchExample" />
-        <item itemvalue="Application.JoinDemo" />
-        <item itemvalue="Application.ReentrantLockDemo" />
-        <item itemvalue="Application.SynchronizedDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +454,8 @@
       <workItem from="1565945926863" duration="5081000" />
       <workItem from="1566178767669" duration="4971000" />
       <workItem from="1566287436254" duration="1503000" />
-      <workItem from="1566288993794" duration="3886000" />
+      <workItem from="1566288993794" duration="8051000" />
+      <workItem from="1566459711768" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="题库">
       <created>1565692300890</created>
@@ -384,7 +475,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147493000" />
+    <option name="totallyTimeSpent" value="152399000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -399,7 +490,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21179625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21447721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -408,7 +499,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23167156" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30645162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,72 +534,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/paixu/Xuanze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/xiaoyi/StringPailie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/xiaoyi/Palouti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/xiaoyi/数组求目标和.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/leecode/二叉树的下一个节点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/leecode/对称的二叉树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/leecode/之字形打印二叉树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/leecode/二叉树打印成多行.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atzj/leecode/最小的k个数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -595,13 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/paixu/Kuaisu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="56" column="62" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -717,13 +735,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/executor/ExecutorService.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/executor/MainCacheThead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/executor/MainFixedThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -762,30 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/executor/ShutDownDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/executor/ExecutorServiceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/synchronize/SynchronizedDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -803,16 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/synchronize/ReentrantLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,22 +830,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/CountdownLatchExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/executor/ShutDownDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="176">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2518">
+          <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/CyclicBarrierExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state relative-caret-position="368">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/synchronize/ReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/paixu/Xuanze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/paixu/Kuaisu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/synchronize/SynchronizedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/SemaphoreExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/CountdownLatchExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/executor/MainCacheThead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/other/FutureTaskExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/other/ProducerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/jus/other/ForkJoinExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atzj/thread/ThreadUnSafeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
